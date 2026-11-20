@@ -1,0 +1,28 @@
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+button, input {
+  font: inherit;
+}
+
+button:focus-visible, input:focus-visible {
+  outline: 2px solid #a58aff;
+  outline-offset: 3px;
+}
+
+::selection {
+  background: rgba(151, 117, 255, 0.35);
+  color: white;
+}
